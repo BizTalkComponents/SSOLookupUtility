@@ -15,6 +15,6 @@
     </dependencies>
   </metadata>
 <files>
-    <file src="\bin\release\BizTalkComponents.Utilities.SSOLookupUtility.dll" target="lib\net46"/>
+    <file src=".\bin\release\BizTalkComponents.Utilities.SSOLookupUtility.dll" target="lib\net46"/>
   </files>
 </package>
