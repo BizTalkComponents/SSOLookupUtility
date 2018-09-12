@@ -10,6 +10,9 @@
     <releaseNotes>Initial release.</releaseNotes>
     <copyright>Copyright 2014</copyright>
     <tags>BizTalk</tags>
+    <dependencies>
+      <dependency id="BizTalkComponents.Utilities.LookupUtility" version="1.2.2" />
+    </dependencies>
   </metadata>
 <files>
     <file src="\bin\release\BizTalkComponents.Utilities.SSOLookupUtility.dll" target="lib\net46"/>
