@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>BizTalkComponents.Utilities.SSOLookupUtility</id>
+    <version>1.0</version>
+    <authors>Robin Hultman</authors>
+    <projectUrl>https://github.com/BizTalkComponents/SSOLookupUtility</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Utility for retrieving key value lookup results from SSO</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2014</copyright>
+    <tags>BizTalk</tags>
+  </metadata>
+<files>
+    <file src="\bin\release\BizTalkComponents.Utilities.SSOLookupUtility.dll" target="lib\net46"/>
+  </files>
+</package>

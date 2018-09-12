@@ -1,0 +1,25 @@
+<Project DefaultTargets="GenerateMsi" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<Import Project="$(MSBuildExtensionsPath)\BtsMsiTask\BtsMsiTask.targets" />
+  
+	<PropertyGroup>
+		<DestinationPath>.</DestinationPath>
+		<ApplicationName>BizTalkComponents.Utilities.SSOLookupUtility</ApplicationName>
+    <Configuration></Configuration>
+	</PropertyGroup>
+	<ItemGroup>
+	<Resource Include="..\packages\Microsoft.SharePoint.Client.14.0.4762.1000\lib\Microsoft.SharePoint.Client.dll" />
+<Resource Include="..\packages\Microsoft.SharePoint.Client.14.0.4762.1000\lib\Microsoft.SharePoint.Client.Runtime.dll" />
+<Resource Include="..\packages\BizTalkComponents.Utilities.LookupUtility.1.2.2\lib\net45" />	
+
+	<Resource Include="..\Src\SSOLookupUtility\bin\debug\BizTalkComponents.Utilities.SSOLookupUtility.dll" />
+  </ItemGroup>
+  
+  <Target Name="GenerateMsi">
+    <MsiTask
+			FileName="BizTalkComponents.Utilities.LookupUtility1.0.0.0.msi"
+			DestinationPath="$(DestinationPath)"
+			ApplicationName="$(ApplicationName)"
+			SourceLocation="C:\%(Info.AssemblyInformationalVersion)"
+			Resources="@(Resource)" />
+  </Target>
+</Project>
