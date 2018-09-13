@@ -1,6 +1,7 @@
 ﻿using BizTalkComponents.Utilities.LookupUtility.Repository;
 using Microsoft.BizTalk.SSOClient.Interop;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
@@ -16,9 +17,9 @@ namespace BizTalkComponents.Utilities.SSOLookupUtility
             var propertyBag = SSOClientHelper.BuildPropertyBag(list);
             var dictionary = new Dictionary<string, string>();
 
-            foreach (KeyValuePair<string, string> entry in propertyBag.Properties)
+            foreach (DictionaryEntry entry in propertyBag.Properties)
             {
-                dictionary.Add(entry.Key, entry.Value);
+                dictionary.Add((string)entry.Key, (string)entry.Value);
             }
 
             return dictionary;
