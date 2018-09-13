@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>BizTalkComponents.Utilities.SSOLookupUtility</id>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <authors>Robin Hultman</authors>
     <projectUrl>https://github.com/BizTalkComponents/SSOLookupUtility</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
