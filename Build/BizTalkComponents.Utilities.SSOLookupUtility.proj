@@ -9,7 +9,7 @@
 	<ItemGroup>
 	<Resource Include="..\packages\Microsoft.SharePoint.Client.14.0.4762.1000\lib\Microsoft.SharePoint.Client.dll" />
 <Resource Include="..\packages\Microsoft.SharePoint.Client.14.0.4762.1000\lib\Microsoft.SharePoint.Client.Runtime.dll" />
-<Resource Include="..\packages\BizTalkComponents.Utilities.LookupUtility.1.2.2\lib\net45\BizTalkComponents.Utilities.LookupUtility.dll" />	
+<Resource Include="..\packages\BizTalkComponents.Utilities.LookupUtility.1.2.3\lib\net45\BizTalkComponents.Utilities.LookupUtility.dll" />	
 
 	<Resource Include="..\Src\SSOLookupUtility\bin\release\BizTalkComponents.Utilities.SSOLookupUtility.dll" />
   </ItemGroup>

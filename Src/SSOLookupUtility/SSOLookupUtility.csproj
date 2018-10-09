@@ -40,7 +40,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BizTalkComponents.Utilities.LookupUtility, Version=1.0.0.0, Culture=neutral, PublicKeyToken=2a501ae5622b3926, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\BizTalkComponents.Utilities.LookupUtility.1.2.2\lib\net45\BizTalkComponents.Utilities.LookupUtility.dll</HintPath>
+      <HintPath>..\..\packages\BizTalkComponents.Utilities.LookupUtility.1.2.3\lib\net45\BizTalkComponents.Utilities.LookupUtility.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.BizTalk.Interop.SSOClient, Version=10.0.1000.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
